@@ -178,7 +178,7 @@ const minLength = (len) => (val) => (val) && (val.length >= len);
                 </div>
             );
         }
-        else if(props.dish!=undefined){
+        else if(props.dish!==undefined){
             return (
                 <div className="container">
                     <div className="row">
