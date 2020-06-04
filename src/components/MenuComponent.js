@@ -40,7 +40,7 @@ import { baseUrl } from '../shared/baseUrl';
             return(
                 <div className="container">
                     <div className="row">
-                        <h4>{props.errMess}</h4>
+                        <h4>{props.dishes.errMess}</h4>
                     </div>
                 </div>
             );
