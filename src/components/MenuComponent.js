@@ -7,7 +7,7 @@ import { baseUrl } from '../shared/baseUrl';
     function RenderMenuItem({ dish }) {
         return(
             <Card>
-                <Link to={`/menu/${dish.id}`} >
+                <Link to={`/React-First-Application/menu/${dish.id}`} >
                     <CardImg width="100%" src={baseUrl + dish.image} alt={dish.name} />
                     <CardImgOverlay body className="ml-5">
                         <CardTitle heading>{dish.name}</CardTitle>
@@ -50,7 +50,7 @@ import { baseUrl } from '../shared/baseUrl';
                 <div className="container">
                     <div className="row">
                         <Breadcrumb>
-                            <BreadcrumbItem><Link to='/home'>Home</Link></BreadcrumbItem>
+                            <BreadcrumbItem><Link to='/React-First-Application/home'>Home</Link></BreadcrumbItem>
                             <BreadcrumbItem active>Menu</BreadcrumbItem>
                         </Breadcrumb>
                         <div className="col-12">
