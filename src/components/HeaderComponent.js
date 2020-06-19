@@ -54,7 +54,7 @@ class Header extends Component {
                                 <NavItem>
                                     <NavLink className="nav-link" to="/React-First-Application/aboutus">
                                         <span className="fa fa-info fa-lg"></span> About us
-                                    </NavLink>
+                                         </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/React-First-Application/menu">
